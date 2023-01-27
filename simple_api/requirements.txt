@@ -1,0 +1,6 @@
+Flask
+flask_httpauth==4.1.0
+flask_simpleldap
+python-dotenv==0.14.0
+http-basic-auth
+Werkzeug==2.0.0

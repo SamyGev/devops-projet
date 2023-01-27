@@ -1,0 +1,25 @@
+services:
+  api:
+    image: api:v5
+    ports:
+      - "5000:5000"
+    volumes:
+      - "data-devops:/data"
+
+
+  web:
+    image: polinux/httpd-php
+    volumes:
+      - ./website:/var/www/html/
+    ports:
+      - "8082:80"
+    depends_on:
+      - api
+
+
+volumes:
+  data-devops:
+
+networks:
+  default: 
+    driver: bridge
