@@ -1,6 +1,6 @@
 services:
   api:
-    image: api:v5
+    image: samygevers/devops-php-python
     ports:
       - "5000:5000"
     volumes:
