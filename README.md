@@ -10,3 +10,11 @@
 - l'appli est fonctionnelle, le back est sur le port 5000 et le front 8082, on peut rajouter des noms, supprimer les containers, en faire de nouveaux, on a une persistence des données
 - chargement du front après le back
 - On a fait du python et du php pour que l'appli soit plus simple d'utilisation, on rempli le formulaire et on peut voir directement les changements
+
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
